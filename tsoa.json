@@ -1,0 +1,14 @@
+{
+  "entryFile": "src/index1.ts",
+  "noImplicitAdditionalProperties": "throw-on-extras",
+  "controllerPathGlobs": ["src/**/*.controller.ts"],
+  "spec": {
+    "outputDirectory": "src/generated",
+    "specVersion": 3
+  },
+  "routes": {
+    "esm": true,
+    "routesDir": "src/generated",
+    "authenticationModule": "src/auth.ts"
+  }
+}
